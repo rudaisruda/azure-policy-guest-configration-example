@@ -2,7 +2,7 @@
 $params = @{
     Name          = 'TestFileConfig'
     Configuration = './TestFileConfig/localhost.mof'
-    Type          = 'AuditAndSet'
+    Type          = 'AuditAndSet' # AuditAndSet, Audit
     Force         = $true
     Path          = './TestFileConfig/'
 }
